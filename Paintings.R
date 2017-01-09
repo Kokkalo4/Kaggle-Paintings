@@ -6,7 +6,7 @@ library(tidyr)
 library(Hmisc)
 
 #read file
-paint <- read.csv("c:/users/alex/desktop/R/exercise data/Paintings/paintings.csv", header = T, sep = ";")
+paint <- read.csv(".../input/paintings.csv", header = T, sep = ";")
 
 #structure of data
 str(paint)
